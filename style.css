@@ -1,0 +1,71 @@
+body {
+    /* Aplica a todo el body*/
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    font-family: sans-serif;
+    color: #3D3C42;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 170px;
+    height: 100px;
+    font-family: 'Ramesgo', sans-serif;
+    color: whitesmoke;
+    margin-top: 2rem;
+}
+
+h3 {
+    text-align: center;
+    width: 600px;
+    font-family: cursive;
+    font-size: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.21);
+    width: 750px;
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+.menu-item {
+    margin-top: 1%;
+    height: 2rem;
+    border-radius: 10px;
+    max-width: 100%;
+    font-size: 30px;
+    background-image: none;
+}
+
+.menu-item:hover {
+    color: #3D3C42;
+    background-color: whitesmoke;
+}
+
+.precio {
+    text-align: right;
+}
+
+/*
+Esta clase permite centrar verticalmente los items en el div, tener en cuenta que si aumenta el alto del div contenedor,
+el line-height acá también debería aumentar al mismo valor.
+*/
+.item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    line-height: 2rem;
+}
+
+#lista-menu {
+    margin: auto;
+    /* con esto se logra que este centrado horizontalmente */
+    width: 70%;
+    font-size: 17px;
+    font-weight: 600;
+}
